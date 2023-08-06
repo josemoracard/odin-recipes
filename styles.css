@@ -1,0 +1,65 @@
+* {
+    background-color: #3b4049;
+    font-family: 'Courier New', Courier, monospace;
+    color: #e7e7e7;
+}
+
+.center {
+    text-align: center;
+}
+
+.main {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.main a {
+    display: block;
+    text-align: center;
+    color: #e7e7e7;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.main div {
+    width: 364px;
+    height: auto;
+    margin-bottom: 16px;
+}
+
+.main img {
+    object-fit: cover;
+    width: 364px; 
+    height: 242px;
+}
+
+
+
+/* Content means only content from the recipes pages */
+
+.content {
+    margin-left: 12px;
+}
+
+.content a {
+    text-decoration: none;
+    color: #e7df98;
+}
+.content a:hover{
+    text-decoration: underline;
+}
+
+.content img {
+    width: 500px;
+}
+@media (max-width: 500px) {
+    .content img {
+        display: block;
+        width: 100%;
+        margin: auto;
+
+    }
+  }
+
+
